@@ -457,8 +457,4 @@ The authorship team would like to acknowledge the vision, support and guidance o
 
 ---
 
-## License
-
-MIT License. See `LICENSE` for details.
-
 CWRU Bearing Dataset is provided by the Case Western Reserve University Bearing Data Center under their own terms; please consult the [CWRU Bearing Data Center website](https://engineering.case.edu/bearingdatacenter) before redistribution.
