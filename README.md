@@ -1,6 +1,6 @@
 # Test-Time Compute and Semantic Safety Filtering for Industrial Fault Attribution
 
-> **IEEE IES Generative AI Hackathon 2026** — Cross-severity bearing fault attribution using LLM reasoning, paired with a semantic safety shield. Includes a preliminary small-model adaptation study (LoRA-SFT + DPO on Qwen 2.5-0.5B).
+> **IEEE IES Generative AI Challange 2026** — Cross-severity bearing fault attribution using LLM reasoning, paired with a semantic safety shield. Includes a preliminary small-model adaptation study (LoRA-SFT + DPO on Qwen 2.5-0.5B).
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -438,12 +438,14 @@ Different configurations produced three different class-collapse failure modes �
 If you use this work, please cite:
 
 ```bibtex
-@inproceedings{ali2026sctts,
-  title  = {Test-Time Compute and Semantic Safety Filtering for Industrial Fault Attribution},
-  author = {Ali, Mohamed Alwathiq and Jalal, Moaz},
-  booktitle = {IEEE IES Generative AI Hackathon 2026},
-  year   = {2026},
-  note   = {Universiti Teknologi Malaysia}
+@inproceedings{ali2026ttc,
+  title     = {Test-Time Compute and Semantic Safety Filtering for Industrial Fault Attribution},
+  author    = {Ali, Mohamed Alwathiq and Jalal, Moaz},
+  booktitle = {Proc. IEEE International Conference on Responsible Artificial Intelligence (IRAI)},
+  address   = {Melbourne, Australia},
+  year      = {2026},
+  month     = sep,
+  note      = {Finalist, IEEE IES Generative AI Challenge 2026}
 }
 ```
 
