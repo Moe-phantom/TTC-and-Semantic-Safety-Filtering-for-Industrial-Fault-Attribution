@@ -16,7 +16,7 @@
 We construct a load-matched cross-severity benchmark on the CWRU bearing dataset and demonstrate three findings:
 
 1. **Classical baselines collapse on Inner Race recall** (11–26%) when tested at 0.021-inch severity after training on 0.007-inch. This is a feature-distribution problem, not a classifier-choice problem — SVM, Random Forest, and KNN all fail in the same direction on the same class.
-2. **Test-Time Compute with self-consistency reaches 84.7% accuracy** (+17.3 pp over Random Forest), recovering Inner Race recall from 14% → 84% by treating severity-invariant time-domain features (RMS, kurtosis) as primary discriminators.
+2. **Test-Time Compute with self-consistency reaches 84.7% accuracy** (+17.4 pp over Random Forest), recovering Inner Race recall from 14% → 84% by treating severity-invariant time-domain features (RMS, kurtosis) as primary discriminators.
 3. **A sentence-transformer bi-encoder safety shield blocks 93.3% of adversarial unsafe recommendations** versus 16.7% for regex word-matching, including paraphrased and obfuscated attacks, at a 0.4% false-positive rate on real outputs.
 
 A small-model adaptation study (Qwen 2.5-0.5B + LoRA-SFT + DPO) is reported as a **preliminary observation**, not a reliability claim — see [Section 6](#6-ttrl-style-small-model-adaptation-preliminary-experiment) for the full story including what worked, what didn't, and why.
